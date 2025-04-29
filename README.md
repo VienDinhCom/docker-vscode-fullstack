@@ -174,7 +174,7 @@ Here is a module's folder structure:
 
 You can take a look and learn how to define a module from real-world examples such as [backend](https://github.com/VienDinhCom/docker-vscode-backend), [frontend](https://github.com/VienDinhCom/docker-vscode-frontend), or [proxy](https://github.com/VienDinhCom/docker-vscode-fullstack/tree/main/modules/proxy).
 
-## Experience
+## Philosophy
 
 Why do we always assume together is better?
 
