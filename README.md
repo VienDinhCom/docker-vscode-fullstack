@@ -1,5 +1,21 @@
 # Docker VSCode for Full Stack Development
 
+## Modules
+
+- [backend](https://github.com/VienDinhCom/docker-vscode-backend): APIs and services such as databases, caching, etc.
+- [frontend](https://github.com/VienDinhCom/docker-vscode-frontend): The UI of the application interacting with the APIs.
+- [proxy](https://github.com/VienDinhCom/docker-vscode-fullstack/tree/main/modules/proxy): The reverse proxy that combines the `backend` and `frontend`.
+
+## Installation
+
+Before using this project, make sure you have `Docker CLI` version `1.27.0` or higher, with built-in `compose` support.
+
+```
+git clone --recurse-submodules https://github.com/VienDinhCom/docker-vscode-fullstack.git
+```
+
+The command above clones the project itself and all its [modules](https://github.com/VienDinhCom/docker-vscode-fullstack/tree/main/modules), such as [backend](https://github.com/VienDinhCom/docker-vscode-backend) and [frontend](https://github.com/VienDinhCom/docker-vscode-frontend), from other repositories.
+
 ## Production
 
 Build the production images and run them.
@@ -12,7 +28,7 @@ Open [https://localhost](https://localhost) to view `frontend` or [https://local
 
 ## Full Stack Development
 
-Build the development images and run them with the host's `UID` and `GID`.
+Build the development images and run them with the host's `UID` and `GID` in `fullstack` mode.
 
 ```
 UID=$(id -u) GID=$(id -g) docker compose -f development.yml up --build
@@ -64,11 +80,11 @@ Run the app in the development mode.
 npm run dev
 ```
 
-Open [http://localhost/api/](http://localhost/api/) to view it in your browser.
+Open [https://localhost/api/](https://localhost/api/) to view it in your browser.
 
 ## Front End Development
 
-Build the development images and run them with the host's `UID` and `GID`.
+Build the development images and run them with the host's `UID` and `GID` in `frontend` mode.
 
 ```
 UID=$(id -u) GID=$(id -g) docker compose -f development.frontend.yml up --build
@@ -98,7 +114,7 @@ Open [https://localhost/](https://localhost/) to view it in your browser.
 
 ## Back End Development
 
-Build the development images and run them with the host's `UID` and `GID`.
+Build the development images and run them with the host's `UID` and `GID` in `backend` mode.
 
 ```
 UID=$(id -u) GID=$(id -g) docker compose -f development.backend.yml up --build
@@ -125,3 +141,9 @@ npm run dev
 ```
 
 Open [https://localhost/api/](https://localhost/api/) to view it in your browser.
+
+## Related Projects
+
+- [Docker VSCode for Back End Development](https://github.com/VienDinhCom/docker-vscode-backend)
+- [Docker VSCode for Front End Development](https://github.com/VienDinhCom/docker-vscode-frontend)
+- [Docker VSCode for Full Stack Development](https://github.com/VienDinhCom/docker-vscode-fullstack)
