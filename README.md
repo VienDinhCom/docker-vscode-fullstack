@@ -8,7 +8,9 @@ Build the production images and run them.
 docker compose -f compose/production.yml up --build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://localhost](https://localhost) to view `frontend` in your browser.
+
+Open [https://localhost/api](https://localhost/api) to view `backend` in your browser.
 
 <!-- ## Development
 
