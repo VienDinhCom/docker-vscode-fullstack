@@ -168,6 +168,48 @@ Here is a module's folder structure:
 
 You can take a look and learn how to define a module from real-world examples such as [backend](https://github.com/VienDinhCom/docker-vscode-backend), [frontend](https://github.com/VienDinhCom/docker-vscode-frontend), or [proxy](https://github.com/VienDinhCom/docker-vscode-fullstack/tree/main/modules/proxy).
 
+## How Does the Project Help You?
+
+### One-Click, Consistent Dev Environments
+
+Spin up a full-stack development environment in seconds—no more “works on my machine” headaches. Every developer gets the same stack, from backend to frontend, every time.
+
+### VSCode in the Browser
+
+Develop directly inside your containers using Visual Studio Code, accessible from your browser. No local setup, no extensions to install—just code, anywhere.
+
+### Modular Architecture
+
+Easily add, remove, or update modules (like backend, frontend, or proxy) as your project grows. Use the built-in modules or bring your own via Git submodules.
+
+### Seamless Transition from Dev to Prod
+
+Build and run your stack in both development and production modes with a single command. What you test locally is exactly what you’ll deploy.
+
+### Zero Local Dependencies
+
+All you need is Docker. No Node, Python, or other runtimes required on your machine. Your stack, your way, on any OS.
+
+### UID/GID Mapping for File Safety
+
+Run containers with your host’s user and group IDs to avoid permission issues and keep your files safe and accessible.
+
+### Real-World Examples Included
+
+Jumpstart your project with ready-to-use backend, frontend, and proxy modules. Learn by example or use them as templates for your own services.
+
+### Easy Module Definition
+
+Define new modules with a simple folder structure. Plug them into your stack with minimal configuration.
+
+### Unified Workflow for Teams
+
+Frontend and backend developers work in harmony, using the same tools and processes. Collaboration has never been smoother.
+
+### Open Source and Extensible
+
+Fork, extend, and contribute. This project is designed to grow with your needs and the open-source community.
+
 ## Related Projects
 
 - [Docker VSCode for Back End Development](https://github.com/VienDinhCom/docker-vscode-backend)
