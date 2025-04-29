@@ -174,6 +174,18 @@ Here is a module's folder structure:
 
 You can take a look and learn how to define a module from real-world examples such as [backend](https://github.com/VienDinhCom/docker-vscode-backend), [frontend](https://github.com/VienDinhCom/docker-vscode-frontend), or [proxy](https://github.com/VienDinhCom/docker-vscode-fullstack/tree/main/modules/proxy).
 
+## Experience
+
+Why do we always assume together is better?
+
+You’ve heard it: monorepo. The promise of unity. Backend and frontend, side by side. Shared code, shared vision, shared headaches. Collaboration, yes. But also, entanglement. The more we merge, the more we risk—security, autonomy, clarity. Sometimes, the best way to build is to separate. To let each team own their space, their process, their boundaries.
+
+You want the freedom to move fast, but you also want control. You want to collaborate, but not at the cost of security. You want a system that adapts to your needs, not the other way around.
+
+So, what if you could have both? What if you could keep your teams independent, yet still work in harmony? What if your development environment was always consistent, always ready, always yours—no matter where you are or what you’re building?
+
+That’s the philosophy behind **Docker VSCode for Full Stack Development**. Modular. Isolated. Unified only when you choose. No more `it works on my machine`. No more compromise between collaboration and security. Just a practical, minimal, and powerful way to build—together, apart.
+
 ## How Does the Project Help You?
 
 #### One-Click, Consistent Dev Environments
