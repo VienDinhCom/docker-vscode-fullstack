@@ -10,9 +10,7 @@ docker compose -f production.yml up --build
 
 Open [https://localhost](https://localhost) to view `frontend` or [https://localhost/api](https://localhost/api) to view `backend` in your browser.
 
-## Development
-
-### For Full Stack Developers
+## Full Stack Development
 
 Build the development images and run them with the host's `UID` and `GID`.
 
@@ -20,7 +18,7 @@ Build the development images and run them with the host's `UID` and `GID`.
 UID=$(id -u) GID=$(id -g) docker compose -f development.yml up --build
 ```
 
-#### Front End
+### Front End
 
 Open [http://localhost:53000](http://localhost:53000) to develop inside the container with Visual Studio Code directly in your browser.
 
@@ -44,7 +42,7 @@ npm run dev
 
 Open [https://localhost/](https://localhost/) to view it in your browser.
 
-#### Back End
+### Back End
 
 Open [http://localhost:58000](http://localhost:58000) to develop inside the container with Visual Studio Code directly in your browser.
 
@@ -68,7 +66,7 @@ npm run dev
 
 Open [http://localhost/api/](http://localhost/api/) to view it in your browser.
 
-### For Front End Developers
+## Front End Development
 
 Build the development images and run them with the host's `UID` and `GID`.
 
@@ -98,7 +96,7 @@ npm run dev
 
 Open [https://localhost/](https://localhost/) to view it in your browser.
 
-### For Back End Developers
+## Back End Development
 
 Build the development images and run them with the host's `UID` and `GID`.
 
