@@ -1,6 +1,6 @@
-[submodule "frontend"]
-	path = frontend
+[submodule "modules/frontend"]
+	path = modules/frontend
 	url = https://github.com/VienDinhCom/docker-vscode-frontend.git
-[submodule "backend"]
-	path = backend
+[submodule "modules/backend"]
+	path = modules/backend
 	url = https://github.com/VienDinhCom/docker-vscode-backend.git
