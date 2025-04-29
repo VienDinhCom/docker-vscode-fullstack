@@ -160,7 +160,7 @@ Open [https://localhost/api/](https://localhost/api/) to view it in your browser
 
 ## Define a Module
 
-A module can be stored in the `modules` folder or included as a Git submodule from another repository.
+A module is stored in the `modules` folder or included as a Git submodule from another repository.
 
 Here is a module's folder structure:
 
