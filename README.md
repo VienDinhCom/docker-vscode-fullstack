@@ -1,5 +1,9 @@
 # Docker VSCode for Full Stack Development
 
+A Docker workspace for full-stack development with `VSCode Server` on `Alpine Linux`. It keeps the development process consistent from `development` to `production`, and uniform across both `frontend` and `backend` developers.
+
+Say goodbye to "It works on my machine" — and hello to "It works on our machines."
+
 ## Modules
 
 A project can have two, three, or many modules. These can be defined in the `modules` folder or included as a Git submodule.
