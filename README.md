@@ -97,3 +97,33 @@ npm run dev
 ```
 
 Open [https://localhost/](https://localhost/) to view it in your browser.
+
+### For Back End Developers
+
+Build the development images and run them with the host's `UID` and `GID`.
+
+```
+UID=$(id -u) GID=$(id -g) docker compose -f development.backend.yml up --build
+```
+
+Open [http://localhost:58000](http://localhost:58000) to develop inside the container with Visual Studio Code directly in your browser.
+
+Open the project in the terminal using the command:
+
+```
+code frontend
+```
+
+Install project dependencies.
+
+```
+npm install
+```
+
+Run the app in the development mode.
+
+```
+npm run dev
+```
+
+Open [https://localhost/api/](https://localhost/api/) to view it in your browser.
