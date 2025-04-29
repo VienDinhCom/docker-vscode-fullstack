@@ -1,0 +1,12 @@
+# https://docs.docker.com/compose/how-tos/multiple-compose-files/include/
+
+include:
+  - path:
+      - modules/backend/compose/production.yml
+      - override/backend.yml
+  - path:
+      - modules/frontend/compose/development.yml
+      - override/frontend.yml
+  - path:
+      - modules/proxy/compose/development.yml
+      - override/proxy.yml

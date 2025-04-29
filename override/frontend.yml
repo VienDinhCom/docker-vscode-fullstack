@@ -1,0 +1,4 @@
+services:
+  frontend:
+    depends_on:
+      - backend
