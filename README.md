@@ -1,8 +1,14 @@
 # Docker VSCode for Full Stack Development
 
-A Docker workspace for full-stack development with `VSCode Server` on `Alpine Linux`. It keeps the development process consistent from `development` to `production`, and uniform across both `frontend` and `backend` developers.
+A Docker workspace for full-stack development with `VSCode Server` on `Alpine Linux` containers. It keeps the development process consistent from `development` to `production`, and uniform across both `frontend` and `backend` developers.
 
-So your team can say goodbye to `It works on my machine` and hello to `It works on our machines`.
+- ⚡ **Consistent environments** for every team member—no more “works on my machine.”
+- 🖥️ **VSCode in your browser** for seamless coding anywhere, no local setup needed.
+- 🧩 **Modular architecture**—add or swap backend, frontend, or proxy modules with ease.
+- 🚀 **Effortless dev-to-prod workflow**—what you build locally is what you deploy.
+- 🐳 **Zero local dependencies**—just Docker, on any OS.
+
+Perfect for fast, reliable, and collaborative full-stack development!
 
 ## Modules
 
