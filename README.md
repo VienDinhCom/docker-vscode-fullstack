@@ -2,7 +2,7 @@
 
 A Docker workspace for full-stack development with `VSCode Server` on `Alpine Linux`. It keeps the development process consistent from `development` to `production`, and uniform across both `frontend` and `backend` developers.
 
-Say goodbye to "It works on my machine" — and hello to "It works on our machines."
+So your team can say goodbye to `It works on my machine` and hello to `It works on our machines`.
 
 ## Modules
 
