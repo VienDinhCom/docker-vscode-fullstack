@@ -5,7 +5,7 @@
 Build the production images and run them.
 
 ```
-docker compose -f compose/production.yml up --build
+docker compose -f production.yml up --build
 ```
 
 Open [https://localhost](https://localhost) to view `frontend` in your browser.
