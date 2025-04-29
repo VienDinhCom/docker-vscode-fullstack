@@ -142,6 +142,22 @@ npm run dev
 
 Open [https://localhost/api/](https://localhost/api/) to view it in your browser.
 
+## Define a Module
+
+A module can be stored in the `modules` folder or included as a Git submodule from another repository.
+
+Here is a module's folder structure:
+
+- `module`
+  - `compose`: defines how the containers run
+    - `production.yml`
+    - `development.yml`
+    - `override`
+      - `development.yml`
+  - `Dockerfile`: defines the image's build process
+
+You can take a look and learn how to define a module from real-world examples such as [backend](https://github.com/VienDinhCom/docker-vscode-backend), [frontend](https://github.com/VienDinhCom/docker-vscode-frontend), or [proxy](https://github.com/VienDinhCom/docker-vscode-fullstack/tree/main/modules/proxy).
+
 ## Related Projects
 
 - [Docker VSCode for Back End Development](https://github.com/VienDinhCom/docker-vscode-backend)
