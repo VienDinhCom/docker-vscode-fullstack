@@ -2,11 +2,11 @@
 
 A Docker workspace for full-stack development with `VSCode Server` on `Alpine Linux` containers. It keeps the development process consistent from `development` to `production`, and uniform across both `frontend` and `backend` developers.
 
-- ⚡ **Consistent environments** for every team member—no more `works on my machine`.
-- 🖥️ **VSCode in your browser** for seamless coding anywhere, no local setup needed.
-- 🧩 **Modular architecture**—add or swap backend, frontend, or proxy modules with ease.
-- 🚀 **Effortless dev-to-prod workflow**—what you build locally is what you deploy.
-- 🐳 **Zero local dependencies**—just Docker, on any OS.
+- 🐳 **Just Docker**—no local dependencies
+- 🖥️ **VSCode in browser**—run and code, no setup
+- 🧩 **Modular**—easy backend/frontend/proxy swaps
+- 🚀 **Effortless dev-to-prod workflow**—deploy what you build
+- ⚡ **Consistent environments**—no more “works on my machine”
 
 Perfect for fast, reliable, and collaborative full-stack development!
 
