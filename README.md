@@ -6,7 +6,7 @@ A Docker workspace for full-stack development with `VSCode Server` on `Alpine Li
 - 🖥️ **VSCode in browser**—run and code, no setup
 - 🧩 **Modular**—easy backend/frontend/proxy swaps
 - 🚀 **Effortless dev-to-prod workflow**—deploy what you build
-- ⚡ **Consistent environments**—no more “works on my machine”
+- ⚡ **Consistent environments**—no more `works on my machine`
 
 Perfect for fast, reliable, and collaborative full-stack development!
 
@@ -141,7 +141,7 @@ Open [http://localhost:58000](http://localhost:58000) to develop inside the cont
 Open the project in the terminal using the command:
 
 ```
-code frontend
+code backend
 ```
 
 Install project dependencies.
