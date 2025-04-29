@@ -188,7 +188,7 @@ That’s the philosophy behind **Docker VSCode for Full Stack Development**. Mod
 
 ## How Does the Project Help You?
 
-#### One-Click, Consistent Dev Environments
+#### Consistent Dev Environments
 
 Spin up a full-stack development environment in seconds—no more `works on my machine` headaches. Every developer gets the same stack, from backend to frontend, every time.
 
