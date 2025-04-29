@@ -182,7 +182,7 @@ Spin up a full-stack development environment in seconds—no more `works on my m
 
 #### VSCode in the Browser
 
-Develop directly inside your containers using Visual Studio Code, accessible from your browser. No local setup, no extensions to install—just code, anywhere.
+Develop directly inside your containers using Visual Studio Code, accessible from your browser. No local setup on your machines—just code, anywhere.
 
 #### Modular Architecture
 
