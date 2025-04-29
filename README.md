@@ -2,6 +2,10 @@
 
 ## Modules
 
+A project can have two, three, or many modules. These can be defined in the `modules` folder or included as a Git submodule.
+
+Here's what we have in this project:
+
 - [backend](https://github.com/VienDinhCom/docker-vscode-backend): APIs and services such as databases, caching, etc.
 - [frontend](https://github.com/VienDinhCom/docker-vscode-frontend): The UI of the application interacting with the APIs.
 - [proxy](https://github.com/VienDinhCom/docker-vscode-fullstack/tree/main/modules/proxy): The reverse proxy that combines the `backend` and `frontend`.
