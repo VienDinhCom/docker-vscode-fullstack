@@ -6,7 +6,7 @@
 - [frontend](https://github.com/VienDinhCom/docker-vscode-frontend): The UI of the application interacting with the APIs.
 - [proxy](https://github.com/VienDinhCom/docker-vscode-fullstack/tree/main/modules/proxy): The reverse proxy that combines the `backend` and `frontend`.
 
-You can learn how to define a module here: [Define a Module](#define-a-module)
+You can learn how to define a module here: [define a module](#define-a-module).
 
 ## Installation
 
