@@ -190,7 +190,7 @@ That’s the philosophy behind **Docker VSCode for Full Stack Development**. Mod
 
 #### Consistent Dev Environments
 
-Spin up a full-stack development environment in seconds—no more `works on my machine` headaches. Every developer gets the same stack, from backend to frontend, every time.
+Spin up a full-stack development environment in seconds—no more `it works on my machine` headaches. Every developer gets the same stack, from backend to frontend, every time.
 
 #### VSCode in the Browser
 
