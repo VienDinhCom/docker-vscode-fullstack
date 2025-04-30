@@ -233,4 +233,3 @@ Fork, extend, and contribute. This project is designed to grow with your needs a
 
 - [Docker VSCode for Back End Development](https://github.com/VienDinhCom/docker-vscode-backend)
 - [Docker VSCode for Front End Development](https://github.com/VienDinhCom/docker-vscode-frontend)
-- [Docker VSCode for Full Stack Development](https://github.com/VienDinhCom/docker-vscode-fullstack)
