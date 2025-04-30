@@ -2,11 +2,11 @@
 
 include:
   - path:
-      - modules/backend/compose/production.yml
+      - modules/backend/docker/production.yml
       - override/backend.yml
   - path:
-      - modules/frontend/compose/development.yml
+      - modules/frontend/docker/development.yml
       - override/frontend.yml
   - path:
-      - modules/proxy/compose/development.yml
+      - modules/proxy/docker/development.yml
       - override/proxy.yml

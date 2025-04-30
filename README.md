@@ -165,12 +165,13 @@ A module is stored in the `modules` folder or included as a Git submodule from a
 Here is a module's folder structure:
 
 - `module`
-  - `compose`: defines how the containers run
+  - `docker`: defines how the containers run
     - `production.yml`
     - `development.yml`
     - `override`
       - `development.yml`
-  - `Dockerfile`: defines the image's build process
+    - `dockerfile`
+  - `...`: the rest of your modules files
 
 You can take a look and learn how to define a module from real-world examples such as [backend](https://github.com/VienDinhCom/docker-vscode-backend), [frontend](https://github.com/VienDinhCom/docker-vscode-frontend), or [proxy](https://github.com/VienDinhCom/docker-vscode-fullstack/tree/main/modules/proxy).
 
