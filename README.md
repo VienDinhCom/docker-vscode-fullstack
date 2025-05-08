@@ -52,13 +52,7 @@ UID=$(id -u) GID=$(id -g) docker compose -f development.yml up --build
 
 ### Front End
 
-Open [http://localhost:53000](http://localhost:53000) to develop inside the container with Visual Studio Code directly in your browser.
-
-Open the project in the terminal using the command:
-
-```
-code frontend
-```
+Open [http://localhost:53000/?folder=/home/user/frontend](http://localhost:53000/?folder=/home/user/frontend) to develop inside the container with Visual Studio Code directly in your browser.
 
 Install project dependencies.
 
@@ -76,13 +70,7 @@ Open [https://localhost/](https://localhost/) to view it in your browser.
 
 ### Back End
 
-Open [http://localhost:58000](http://localhost:58000) to develop inside the container with Visual Studio Code directly in your browser.
-
-Open the project in the terminal using the command:
-
-```
-code backend
-```
+Open [http://localhost:58000/?folder=/home/user/backend](http://localhost:58000/?folder=/home/user/backend) to develop inside the container with Visual Studio Code directly in your browser.
 
 Install project dependencies.
 
@@ -106,13 +94,7 @@ Build the development images and run them with the host's `UID` and `GID` in `fr
 UID=$(id -u) GID=$(id -g) docker compose -f development.frontend.yml up --build
 ```
 
-Open [http://localhost:53000](http://localhost:53000) to develop inside the container with Visual Studio Code directly in your browser.
-
-Open the project in the terminal using the command:
-
-```
-code frontend
-```
+Open [http://localhost:53000/?folder=/home/user/frontend](http://localhost:53000/?folder=/home/user/frontend) to develop inside the container with Visual Studio Code directly in your browser.
 
 Install project dependencies.
 
@@ -136,13 +118,7 @@ Build the development images and run them with the host's `UID` and `GID` in `ba
 UID=$(id -u) GID=$(id -g) docker compose -f development.backend.yml up --build
 ```
 
-Open [http://localhost:58000](http://localhost:58000) to develop inside the container with Visual Studio Code directly in your browser.
-
-Open the project in the terminal using the command:
-
-```
-code backend
-```
+Open [http://localhost:58000/?folder=/home/user/backend](http://localhost:58000/?folder=/home/user/backend) to develop inside the container with Visual Studio Code directly in your browser.
 
 Install project dependencies.
 
