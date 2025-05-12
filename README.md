@@ -142,11 +142,15 @@ Here is a module's folder structure:
 
 - `module`
   - `docker`: defines how the containers run
+    - `image`
+      - `dockerfile`
+      - `production/endpoint/start`
+      - `development/endpoint/start`
     - `production.yml`
     - `development.yml`
     - `override`
       - `development.yml`
-    - `dockerfile`
+    
   - `...`: the rest of your module files
 
 You can take a look and learn how to define a module from real-world examples such as [backend](https://github.com/VienDinhCom/docker-vscode-backend), [frontend](https://github.com/VienDinhCom/docker-vscode-frontend), or [proxy](https://github.com/VienDinhCom/docker-vscode-fullstack/tree/main/modules/proxy).
