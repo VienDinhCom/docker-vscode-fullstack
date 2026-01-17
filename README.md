@@ -157,57 +157,35 @@ You can take a look and learn how to define a module from real-world examples su
 
 ## Philosophy
 
-Why do we always assume together is better?
+Why do we always assume that “together” is better?
 
-You’ve heard it: monorepo. The promise of unity. Backend and frontend, side by side. Shared code, shared vision, shared headaches. Collaboration, yes. But also, entanglement. The more we merge, the more we risk—security, autonomy, clarity. Sometimes, the best way to build is to separate. To let each team own their space, their process, their boundaries.
+In software, that often means a monorepo. Frontend and backend in one place. Shared code. Shared goals. But also shared problems. More risk. Less clarity. Less control.
 
-You want the freedom to move fast, but you also want control. You want to collaborate, but not at the cost of security. You want a system that adapts to your needs, not the other way around.
+Sometimes, moving faster means separating things. Let teams own their space. Their tools. Their boundaries. Collaboration doesn’t have to mean everything is tangled together.
 
-So, what if you could have both? What if you could keep your teams independent, yet still work in harmony? What if your development environment was always consistent, always ready, always yours—no matter where you are or what you’re building?
+What if you could have both?
+Independent teams, but working in sync.
+Freedom to move fast, without giving up security.
+A setup that works the same for everyone, every time.
 
-That’s the philosophy behind **Docker VSCode for Full Stack Development**. Modular. Isolated. Unified only when you choose. No more `it works on my machine`. No more compromise between collaboration and security. Just a practical, minimal, and powerful way to build—together, apart.
+That’s the idea behind **Docker VSCode for Full Stack Development**.
 
-## How Does the Project Help You?
+It gives you:
 
-#### Consistent Dev Environments
+* The same dev environment for every developer
+* VS Code running in the browser, inside Docker
+* No “it works on my machine”
+* No local setup beyond Docker
+* Frontend and backend separated, but easy to connect
+* Dev and prod that behave the same
+* A modular setup you can grow or change anytime
 
-Spin up a full-stack development environment in seconds—no more `it works on my machine` headaches. Every developer gets the same stack, from backend to frontend, every time.
+Each part stays isolated. Everything comes together only when you want it to.
 
-#### VSCode in the Browser
+Simple. Practical. Flexible.
 
-Develop directly inside your containers using Visual Studio Code, accessible from your browser. No local setup on your machines—just code, anywhere.
+Build together — without forcing everything into one box.
 
-#### Modular Architecture
-
-Easily add, remove, or update modules (like backend, frontend, or proxy) as your project grows. Use the built-in modules or bring your own via Git submodules.
-
-#### Seamless Transition from Dev to Prod
-
-Build and run your stack in both development and production modes with a single command. What you test locally is exactly what you’ll deploy.
-
-#### Zero Local Dependencies
-
-All you need is Docker. No Node, Python, or other runtimes required on your machine. Your stack, your way, on any OS.
-
-#### UID/GID Mapping for File Safety
-
-Run containers with your host’s user and group IDs to avoid permission issues and keep your files safe and accessible.
-
-#### Real-World Examples Included
-
-Jumpstart your project with ready-to-use backend, frontend, and proxy modules. Learn by example or use them as templates for your own services.
-
-#### Easy Module Definition
-
-Define new modules with a simple folder structure. Plug them into your stack with minimal configuration.
-
-#### Unified Workflow for Teams
-
-Frontend and backend developers work in harmony, using the same tools and processes. Collaboration has never been smoother.
-
-#### Open Source and Extensible
-
-Fork, extend, and contribute. This project is designed to grow with your needs and the open-source community.
 
 ## Related Projects
 
