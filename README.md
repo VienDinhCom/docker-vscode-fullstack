@@ -184,7 +184,7 @@ Each part stays isolated. Everything comes together only when you want it to.
 
 Simple. Practical. Flexible.
 
-Build together — without forcing everything into one box.
+Build together—without forcing everything into one box.
 
 
 ## Related Projects
